@@ -13,7 +13,7 @@ app.use(cookieParser());
 app.use(postsApi);
 app.use(loginApi);
 
-const db = 'mongodb+srv://admin:admintechni123@cluster0.zfvtf.mongodb.net/techni?retryWrites=true&w=majority';
+const db = 'XXXXXXXXXXXXX';
 
 mongoose.connect(db, { useNewUrlParser: true, useUnifiedTopology: true });
 mongoose.connection.on('connected', () => {
