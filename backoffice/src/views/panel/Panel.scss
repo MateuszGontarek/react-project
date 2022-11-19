@@ -1,0 +1,13 @@
+@import './../../colors.scss';
+
+.panel-container {
+    height: 100vh;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+    h1 {
+        margin: 0;
+    }
+}
